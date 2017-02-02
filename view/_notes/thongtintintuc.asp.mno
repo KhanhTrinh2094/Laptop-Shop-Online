@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsTintuc" value="name:ID;datatype:int,name:TieuDe;datatype:varchar,name:NoiDung;datatype:varchar,name:Anh;datatype:varchar" />
+</info>

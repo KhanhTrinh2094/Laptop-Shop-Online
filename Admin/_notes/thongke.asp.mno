@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsSanPham" value="name:sanpham;datatype:int" />
+	<infoitem key="UD_rsSanphamHH" value="name:sanphamHH;datatype:int" />
+	<infoitem key="UD_rsDonhang" value="name:hoadon;datatype:int" />
+	<infoitem key="UD_rsDonhangHH" value="name:hoadonHH;datatype:int" />
+	<infoitem key="UD_rsThanhvien" value="name:thanhvien;datatype:int" />
+	<infoitem key="UD_rsThanhvienHH" value="name:thanhvienhh;datatype:int" />
+	<infoitem key="UD_rsGopy" value="name:phanhoi;datatype:int" />
+	<infoitem key="UD_rsBinhluan" value="name:binhluan;datatype:int" />
+	<infoitem key="UD_rsTintuc" value="name:tintuc;datatype:int" />
+	<infoitem key="UD_rsHSX" value="name:HSX;datatype:int" />
+</info>

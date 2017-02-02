@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+    
+     
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+ol, ul {
+     list-style: none outside none;
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0!important;
+}
+ 
+.clearfix {
+	display: inline-block;
+	width:100%;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+/*---end reset---*/
+
+body{
+    font-family:helvetica,arial,sans-serif;
+    font-size:12px;
+	background-color:#f2f2f2;
+}
+
+.login{
+    position:absolute;
+    left:50%;
+    top:25%;
+	margin-left:-140px;
+    width:280px;
+    border-radius:10px;
+    overflow:hidden;
+    background:url(background.jpg) fixed;
+    border:1px solid #000000;
+	z-index:10;
+	display:none;
+    border: 3px ridge;
+}
+
+.login-header{
+    text-align:center;
+    position:relative;
+    height:38px;
+    line-height:36px;
+    color:#eaeaea;
+    text-shadow:0 1px 0 rgba(0,0,0,0.8);
+    font-weight:bold;
+    background-color:#0000BB;
+
+    
+}
+
+.login-content{
+
+    padding:16px;
+}
+
+.login label{
+    display:block;
+    margin-bottom:9px;
+    font-size:10px;
+    text-shadow:0 0 1px rgba(0,0,0,0.5);
+    font-weight:900;
+    color:#4b4b4b;
+}
+
+.login input:not(.loginsubmit){
+    margin-bottom:9px;
+    display:block;
+    width:218px;
+    background-color:#eee;
+    border:none;
+    height:38px;
+    border-radius:6px;
+    color:#0066FF;
+    font-size:10px;
+    font-weight:900;
+    padding:0 15px;
+    box-shadow:0 1px 0 rgba(255,255,255,0.08);
+}
+
+.loginsubmit{
+    display:block;
+    margin:auto;
+    color:#ddd;
+    font-size:12px;
+    font-weight:bold;
+    height:38px;
+    width:100px;
+    padding-bottom:3px;
+    border-radius:7px;
+    margin-top:15px;
+    border:none;
+    cursor:pointer;
+    background-color:#ffcc33;
+  
+}
+
+
+.close{
+	position:absolute;
+    cursor:pointer;
+	width:16px;
+	height:16px;
+	display:block;
+	border-radius:17px;
+	color:#fff;
+	font-size:11px;
+	line-height:14px;
+	font-weight:bold;
+	text-shadow:none;
+    right:16px;
+    top:11px;
+    background-color:#fff;
+    color:red;
+    box-shadow:0 -1px 0 rgba(255,255,255,0.2) inset;
+    -moz-transition:all 0.2s ease;
+}
+
+.close:hover{
+	color:#fff;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url(background.jpg) fixed;
+    z-index:10;
+	display:none;
+   
+}
+
+.login-bar{
+    border-top:4px solid #222;
+    position:relative;
+}
+
+.login-button{
+    display:inline-block;
+    position:absolute;
+    right:15%;
+    background-color:#0000CC;
+    color:red;
+    font-weight:bold;
+    padding:6px 15px 8px 15px;
+    border-radius:0 0 3px 3px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+
+}
+
+.ttkh{
+
+    position: fixed;
+    left:50%;
+    top:25%;
+    margin-left:-300px;
+    width:600px;
+    height: auto;
+    border-radius:7px;
+    background-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    z-index:9;
+    display:none;
+}
+
+.ttph{
+
+    position: fixed;
+    left:50%;
+    top:35%;
+    margin-left:-100px;
+    width:400px;
+    height: auto;
+    border-radius:7px;
+    background-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    z-index:9;
+    display:none;
+}
+
+.phanhoi{
+
+    position: fixed;
+    left:75%;
+    top:35%;
+    margin-left:-100px;
+    width:400px;
+    height: auto;
+    border-radius:7px;
+    background-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    z-index:9;
+    display:none;
+    display: block;
+}
+
+.giohang{
+
+    position: fixed;
+    right:5px;
+    top:35%;
+    margin-left:-100px;
+    background-color:#fff;
+    z-index:9;
+    display:none;
+    display: block;
+}
+
+#loadhome{
+    position: absolute;
+    z-index: 18;
+    top:400px;
+    left: 600px;
+    opacity: 0.6;
+   
+}
+
+#loadhome img{
+    width: 760;
+    height: 500;
+}

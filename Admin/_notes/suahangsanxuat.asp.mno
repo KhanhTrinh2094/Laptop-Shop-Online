@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsHSX" value="name:ID;datatype:int,name:TenHang;datatype:varchar,name:Web;datatype:varchar,name:LoGo;datatype:varchar" />
+</info>

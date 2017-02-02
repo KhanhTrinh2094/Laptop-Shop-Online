@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsSanpham" value="name:ID;datatype:int,name:HSXID;datatype:int,name:TenSanPham;datatype:varchar,name:GiaSanPham;datatype:smallmoney,name:Ram;datatype:varchar,name:HDD;datatype:varchar,name:Chip;datatype:varchar,name:Anh;datatype:varchar,name:TrangThai;datatype:tinyint,name:ChiTiet;datatype:varchar" />
+</info>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsDonhang" value="name:ID;datatype:int,name:KHID;datatype:int,name:ThoiGian;datatype:smalldatetime,name:NgayGiaoHang;datatype:smalldatetime,name:TenNguoiNhan;datatype:varchar,name:GioiTinh;datatype:bit,name:DiaChi;datatype:varchar,name:Email;datatype:varchar,name:DienThoai;datatype:int,name:GhiChu;datatype:,name:TrangThai;datatype:tinyint" />
+	<infoitem key="UD_rsDathang" value="name:SPID;datatype:int,name:HDID;datatype:int,name:SoLuong;datatype:int,name:TrangThai;datatype:int" />
+	<infoitem key="UD_rsKhachhang" value="name:ID;datatype:int,name:TenDangNhap;datatype:varchar,name:MatKhau;datatype:varchar,name:HoTen;datatype:varchar,name:DiaChi;datatype:varchar,name:Email;datatype:varchar,name:SoDienThoai;datatype:int,name:GioiTinh;datatype:bit,name:TrangThai;datatype:tinyint,name:VaiTro;datatype:tinyint" />
+	<infoitem key="UD_rsHoadon" value="name:ID;datatype:int,name:KHID;datatype:int,name:ThoiGian;datatype:smalldatetime,name:NgayGiaoHang;datatype:smalldatetime,name:TenNguoiNhan;datatype:varchar,name:GioiTinh;datatype:bit,name:DiaChi;datatype:varchar,name:Email;datatype:varchar,name:DienThoai;datatype:int,name:GhiChu;datatype:,name:TrangThai;datatype:tinyint" />
+</info>
